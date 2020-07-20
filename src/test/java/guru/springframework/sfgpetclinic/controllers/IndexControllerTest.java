@@ -19,7 +19,7 @@ class IndexControllerTest {
         assertEquals("index", controller.index());
         assertEquals("index", controller.index(), "Wrong View returned");
 
-        assertEquals("indexa", controller.index(), "Another expensive Message "
+        assertEquals("index", controller.index(), "Another expensive Message "
                 + "Make me only if you have to");
     }
 
